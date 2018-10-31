@@ -16,9 +16,9 @@ class highlow
                 l=n;
                 h=n;
             }      
-            if(n<l)
+            if(n<=l)
             l=n;
-            else if(n>h)
+            else if(n>=h)
             h=n;
         }
         System.out.println("Highest: "+h+"\nLowest: "+l);
