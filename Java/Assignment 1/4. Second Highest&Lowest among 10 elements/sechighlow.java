@@ -16,12 +16,12 @@ class sechighlow
                 l=n;
                 h=n;
             }
-            if(n<l)
+            if(n<=l)
             {
                 sl=l;
                 l=n;
             }
-            else if(n>h)
+            else if(n>=h)
             {
                 sh=h;
                 h=n;
