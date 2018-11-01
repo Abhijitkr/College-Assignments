@@ -5,7 +5,7 @@ class prime1to1000
     {
         Scanner in = new Scanner(System.in);
         System.out.print("\f");        
-        for(int i=2;i<=1000;i++)
+        for(int i=1;i<=1000;i++)
         {
             int flag=0;
             for(int j=2;j<=i/2;j++)
@@ -13,7 +13,7 @@ class prime1to1000
                 if(i%j==0)
                 flag=1;
             }
-            if(flag==0)
+            if(flag==1)
             System.out.print(i+" ");
         }
     }
