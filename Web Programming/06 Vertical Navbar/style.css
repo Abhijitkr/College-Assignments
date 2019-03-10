@@ -1,0 +1,20 @@
+body{
+    margin-left: 50px;
+  }
+ul{
+      display: inline;
+      text-align: center;
+      list-style: none;
+  }
+li{
+      width: 180px;
+      height: 10px;
+      padding: 20px 0;
+      background: gray;
+      color: white;
+      transition: 0.2s transform ;
+  } 
+li:hover{
+    color: greenyellow;
+    transform: scaleX(1.1);
+  }

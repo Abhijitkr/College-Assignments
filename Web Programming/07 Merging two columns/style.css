@@ -1,0 +1,16 @@
+table{
+    border: dotted;
+    padding: 2px;
+    background: pink;
+}
+th{
+    border: 4px dotted red;
+    border-radius: 25px;
+    padding: 10px;
+    background: white;
+}
+td{
+    border: 2px;
+    background: orange;
+    padding: 10px;
+}
